@@ -2,8 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ATOI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/BeautifyBinaryString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/BitsetTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CaesarCipher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CamelCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ComparatorProblem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/DequeTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Factorial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FunnyString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Gemstones.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MakeAndMatchAnagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MakingAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Maptask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MarsExploration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MergeArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PalindromeIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PermutationPalindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Pnagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PriorityQueueTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RotateArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StackTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StringConstruction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Students.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SuperReducedString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Time.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/TwoStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/TwoSum.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Factorial.java" afterPath="$PROJECT_DIR$/src/Factorial.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="468">
+              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,16 +144,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FunnyString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FunnyString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -224,6 +254,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ComparatorProblem.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RandomAlgorithmProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RandomAlgorithmProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -605,13 +649,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PermutationPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -976,8 +1013,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="468">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
           <folding />
         </state>
       </provider>
