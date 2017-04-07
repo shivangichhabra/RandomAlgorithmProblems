@@ -1,40 +1,43 @@
-import java.util.Scanner;
-
 /**
- * Converts String to Integer
- *
- * Sample Input:
- *  "-12345"
- *
- * Sample Output:
- * -12345
+ * Created by Shivangi on 3/8/2017.
  */
-public class ATOI {
+public class Atoi{
 
-    public int StringToInt(String s){
-        int num = 0;
-        boolean isNeg = false;
-        int i=0;
-        if(s.length()> 0) {
-            if (s.charAt(0) == '-') {
-                isNeg = true;
-                i = 1;
-            }
-            while (i < s.length()) {
-                int x = s.charAt(i) - '0';
-                num = x + num * 10;
-                i++;
-            }
+    public static int StrToInt(String str){
+        long num = 0;
+        int sign = 1;
+        int i = 0;
+
+        if(str.length() == 0 || str ==  null)
+            return 0;
+
+        str = str.trim();
+
+        if(str.charAt(0) == '+') {
+            i = 1;
         }
-        if(isNeg)
-            return -1*num;
-        return num;
+
+        if(str.charAt(0) == '-') {
+            sign = -1;
+            i = 1;
+        }
+
+        while(i < str.length()){
+            if(!Character.isDigit(str.charAt(i)))
+                return (int) num * sign;
+            num = num*10 + str.charAt(i)-'0';
+            if(sign == 1 && num > Integer.MAX_VALUE)
+                return Integer.MAX_VALUE;
+            if(sign == -1 && (-1) * num < Integer.MIN_VALUE)
+                return Integer.MIN_VALUE;
+            i++;
+        }
+
+        return (int) num * sign;
     }
 
     public static void main(String args[]){
-        ATOI atoi = new ATOI();
-        Scanner sc = new Scanner(System.in);
-        String input = sc.next();
-        System.out.println(atoi.StringToInt(input));
+        String num = "2147483648";
+        System.out.println(StrToInt(num));
     }
 }
