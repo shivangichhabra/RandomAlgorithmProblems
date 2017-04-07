@@ -13,7 +13,7 @@ public class Factorial {
         else
             return n * factR(n-1);
     }
-    
+
     /*
     Iterative
      */
