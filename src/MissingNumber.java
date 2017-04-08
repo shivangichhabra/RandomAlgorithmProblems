@@ -2,20 +2,29 @@
  * Created by shivangi on 3/27/17.
  */
 public class MissingNumber {
-
-    public static void rotate(int[] nums, int k) {
+    public int missingNumber(int[] nums) {
         int n = nums.length;
-        int[] a = new int[n];
-        for(int i=0; i<n; i++) {
-            a[i] = nums[(i + k) % n];
+        int sumExpected = (n * (n+1))/2;
+        int sumExist = 0;
+        for(int i=0; i<n; i++){
+            sumExist += nums[i];
         }
-        for(int i=0; i<n; i++)
-            System.out.print(a[i] + " ");
+        return sumExpected-sumExist;
+    }
+
+    public int missingNumberXOR(int[] nums) {
+        int n = nums.length;
+        for(int i=0; i<nums.length; i++){
+            n ^= i;
+            n ^= nums[i];
+        }
+        return n;
     }
 
     public static void main(String args[]){
-        int a[] = {1,2,3};
-        int k = 1;
-        rotate(a,k);
+        MissingNumber ma = new MissingNumber();
+        int[] a = {0,1,3};
+        System.out.println(ma.missingNumber(a));
+        System.out.println(ma.missingNumberXOR(a));
     }
 }
