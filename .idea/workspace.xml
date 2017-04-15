@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DistinctTwoSumPairs.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATOI.java" afterPath="$PROJECT_DIR$/src/ATOI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReverseWords.java" afterPath="$PROJECT_DIR$/src/ReverseWords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwoSum.java" afterPath="$PROJECT_DIR$/src/TwoSum.java" />
-    </list>
+    <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -745,12 +739,12 @@
       <workItem from="1491941866521" duration="1535000" />
       <workItem from="1491943712307" duration="112000" />
       <workItem from="1491944745877" duration="21638000" />
-      <workItem from="1492221973440" duration="289000" />
+      <workItem from="1492221973440" duration="379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86666000" />
+    <option name="totallyTimeSpent" value="86756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
