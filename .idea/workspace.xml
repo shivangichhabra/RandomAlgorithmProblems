@@ -2,8 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATOI.java" afterPath="$PROJECT_DIR$/src/ATOI.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ATOI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/AddBinary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/AddStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/BeautifyBinaryString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/BitsetTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CaesarCipher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CamelCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ComparatorProblem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Complement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ConditionalReverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ContainsDuplicate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CountAndSay.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CountSegements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/DequeTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Fabonnic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Factorial.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FindWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FriendlyWords$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FriendlyWords$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FriendlyWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FunnyString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Gemstones.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/HammingDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/KeyBoradRow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/LetterMystery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MakeAndMatchAnagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MakingAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Maptask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MarsExploration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Match.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MergeArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MissingNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MoveLeft.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Palindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PalindromeIndex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ParenthesisMatching.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PermutationPalindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PlusOne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Pnagram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PriorityQueueTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RandomNote.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RemoveAnElement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RemoveDuplicates.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseVowels.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RomanToInt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RotateArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RotateSquareMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SearchInsert.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StackTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StringConstruction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Students.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Substring.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SuperReducedString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ThirdLargestNum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ThirdMax.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Time.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/TwoStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/TwoSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ValidateParenthesis.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -76,9 +138,12 @@
       <file leaf-file-name="FriendlyWords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FriendlyWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="680">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <element signature="e#698#706#0" expanded="true" />
+                <element signature="e#1096#1104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -620,6 +685,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -734,6 +800,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,6 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,6 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,6 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,6 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -769,6 +840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,6 +848,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,6 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -790,6 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -797,6 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,6 +880,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -811,6 +888,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,6 +896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -825,6 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,6 +912,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,6 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,6 +928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -853,6 +936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,6 +944,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,6 +952,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,6 +960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,6 +968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -888,6 +976,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,6 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,6 +992,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,6 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,6 +1008,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,6 +1016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +1024,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,6 +1032,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,9 +1110,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FriendlyWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="680">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#698#706#0" expanded="true" />
+            <element signature="e#1096#1104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
