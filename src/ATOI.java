@@ -1,7 +1,7 @@
 /**
  * Created by Shivangi on 3/8/2017.
  */
-public class Atoi{
+public class ATOI{
 
     public static int StrToInt(String str){
         long num = 0;

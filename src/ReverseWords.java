@@ -12,7 +12,7 @@ public class ReverseWords {
             return "";
 
         StringBuilder builder = new StringBuilder();
-        String str[] = s.split("\\s+");
+        String str[] = s.split("\\s");
         for(int i=str.length-1; i>=0; i--){
             builder.append(str[i] + " ");
         }
@@ -22,14 +22,15 @@ public class ReverseWords {
     public static String reverseInplace(String s){
         if(s.length() == 0)
             return "";
-        String words[] = s.split("\\s+");
+        String words[] = s.split("\\s");
         Collections.reverse(Arrays.asList(words));
         return String.join(" ", words);
     }
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
+
+        String s = "Let's do  this"; //sc.nextLine();
         System.out.println(reverseWords(s));
         System.out.println(reverseInplace(s));
     }
