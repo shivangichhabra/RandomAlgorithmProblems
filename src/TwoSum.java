@@ -32,6 +32,31 @@ public class TwoSum {
         System.out.println("No such pair");
     }
 
+    public void distinctPairs(int[] array, int sum){
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int pairs = 0;
+
+        for(int i=0; i<array.length; i++){
+            if(map.containsKey(sum - array[i])){
+                int count = map.get(sum-array[i])-1;
+                if(count == 0)
+                    map.remove(sum-array[i]);
+                else
+                    map.put(array[i], count);
+                pairs++;
+                System.out.println(sum-array[i]+ " "+ array[i]);
+            }else{
+                if(map.containsKey(array[i])) {
+                    map.put(array[i],map.get(array[i]) +1);
+                }else{
+                    map.put(array[i], 1);
+                }
+            }
+        }
+        System.out.println(pairs);
+    }
+
+
     public static void main(String args[]){
         TwoSum ts = new TwoSum();
         int a[] = {10,20,30, 40, 50, 50, 60, 50};
