@@ -1,102 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fabonnic.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ATOI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/AddBinary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/AddStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/AnimalShelter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/BeautifyBinaryString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/BitsetTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CaesarCipher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CamelCase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CheckPermutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Checker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ComparatorProblem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Complement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ConditionalReverse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ContainsDuplicate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CountAndSay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CountMaxOnes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/CountSegements.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/DeleteMiddleNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/DequeTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Factorial.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FindWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FriendlyWords$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FriendlyWords$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FriendlyWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/FunnyString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Gemstones.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/HammingDistance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/IntersectionInList$Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/IntersectionInList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/IsUnique.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/KeyBoradRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/LetterMystery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/LinkedListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ListPalindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/LongestNonCommonLength.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/LoopDetectionInList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MakeAndMatchAnagram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MakingAnagrams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Maptask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MarsExploration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Match.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MergeArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MissingNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/MoveLeft.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/OneAway.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Palindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PalindromeIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PalindromePermutation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ParenthesisMatching.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Partition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PermutationPalindrome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Player.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PlusOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Pnagram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/PriorityQueueTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/QueueViaStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RandomNote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RemoveAnElement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RemoveDupFromLinkedList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RemoveDuplicates.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReturnKthToLast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseCharsInWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseVowels.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ReverseWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RomanToInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RotateArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RotateMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/RotateSquareMatrix.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SearchInsert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SortStack.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StackMin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StackOfPlates.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StackTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StringCompression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StringConstruction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/StringRotation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Students.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Substring.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SumLists.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/SuperReducedString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ThirdLargestNum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ThirdMax.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/TwoStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/TwoSum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/URLify.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ValidateParenthesis.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RandomAlgorithmProblems/ZeroMatrix.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,8 +23,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="927" column="5" selection-start-line="927" selection-start-column="5" selection-end-line="927" selection-end-column="5" />
+            <state relative-caret-position="461">
+              <caret line="1013" column="12" selection-start-line="1013" selection-start-column="12" selection-end-line="1013" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -164,7 +69,6 @@
         <option value="$PROJECT_DIR$/src/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/MissingNumber.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicate.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/ATOI.java" />
         <option value="$PROJECT_DIR$/src/ReverseWords.java" />
         <option value="$PROJECT_DIR$/src/ReverseCharsInWords.java" />
@@ -178,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/SortStack.java" />
         <option value="$PROJECT_DIR$/src/StackMin.java" />
         <option value="$PROJECT_DIR$/src/StackOfPlates.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -639,12 +544,12 @@
       <workItem from="1491943712307" duration="112000" />
       <workItem from="1491944745877" duration="21638000" />
       <workItem from="1492221973440" duration="289000" />
-      <workItem from="1492226298320" duration="6000" />
+      <workItem from="1492226298320" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86672000" />
+    <option name="totallyTimeSpent" value="86903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -1022,8 +927,8 @@
     <entry file="file://$PROJECT_DIR$/src/AnimalShelter.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="927" column="5" selection-start-line="927" selection-start-column="5" selection-end-line="927" selection-end-column="5" />
+        <state relative-caret-position="461">
+          <caret line="1013" column="12" selection-start-line="1013" selection-start-column="12" selection-end-line="1013" selection-end-column="12" />
           <folding />
         </state>
       </provider>
