@@ -32,6 +32,48 @@ public class TwoSum {
         System.out.println("No such pair");
     }
 
+    public int[] twoSumArray(int[] numbers, int target){
+        int[] result = new int[2];
+        if(numbers.length < 2) {
+            return new int[]{0, 0};
+        }
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int i=0; i<numbers.length; i++){
+            if(map.containsKey(target-numbers[i])){
+                result[0] = map.get(target - numbers[i])+1;
+                result[1] = i+1;
+            }
+            map.put(numbers[i], i);
+        }
+        return result;
+    }
+
+    public int[] twoSumSortedArray(int[] nums, int target){
+        int[] result = new int[2];
+        if(nums.length < 2)
+            return result;
+
+        int start = 0, end = nums.length-1;
+
+        while(start < end) {
+            int sum = nums[start] + nums[end];
+            if (sum == target) {
+                result[0] = start + 1;
+                result[1] = end + 1;
+                break;
+            } else if (sum < target) {
+                start++;
+            } else {
+                end--;
+            }
+        }
+        return result;
+    }
+
+    /*
+    this one
+     */
     public void distinctPairs(int[] array, int sum){
         HashMap<Integer, Integer> map = new HashMap<>();
         int pairs = 0;
@@ -42,7 +84,7 @@ public class TwoSum {
                 if(count == 0)
                     map.remove(sum-array[i]);
                 else
-                    map.put(array[i], count);
+                    map.put(sum-array[i], count);
                 pairs++;
                 System.out.println(sum-array[i]+ " "+ array[i]);
             }else{
@@ -59,10 +101,13 @@ public class TwoSum {
 
     public static void main(String args[]){
         TwoSum ts = new TwoSum();
-        int a[] = {10,20,30, 40, 50, 50, 60, 50};
+        int a[] = {10,20,30, 40, 50, 50, 60, 50, 70, 30, 50};
         int sum = 100;
 
-        ts.getSum1(a, sum);
-        ts.getSum2(a, sum);
+        int b[] = {1,2,3,4};
+        int target = 6;
+
+        ts.distinctPairs(a, sum);
+        ts.twoSumSortedArray(b, target);
     }
 }

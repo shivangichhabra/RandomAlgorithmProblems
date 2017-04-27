@@ -3,7 +3,7 @@
  */
 public class CountAndSay {
 
-    public static String getCount(int n){
+    public String getCount(int n){
         String s = String.valueOf(n);
         StringBuilder sb = new StringBuilder();
         int count = 0;
@@ -18,9 +18,36 @@ public class CountAndSay {
         return sb.toString();
     }
 
+    public String getCountAndSay(int n) {
+        StringBuilder curr = new StringBuilder("1");
+        StringBuilder prev;
+        int count;
+        char say;
+        for(int i=1; i<n; i++){
+            prev = curr;
+            curr = new StringBuilder();
+            count = 1;
+            say = prev.charAt(0);
+
+            for(int j=1, len= prev.length(); j<len; j++){
+                if(prev.charAt(j) != say){
+                    curr.append(count).append(say);
+                    count = 1;
+                    say = prev.charAt(j);
+                }
+                else
+                    count++;
+            }
+            curr.append(count).append(say);
+        }
+        return curr.toString();
+    }
 
     public static void main(String args[]){
+        CountAndSay c = new CountAndSay();
         int n = 1121111;
-        System.out.println(getCount(n));
+        System.out.println(c.getCount(n));
+        int m = 0;
+        System.out.println(c.getCountAndSay(m));
     }
 }

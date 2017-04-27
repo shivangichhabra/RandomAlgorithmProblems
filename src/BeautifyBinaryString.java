@@ -20,7 +20,7 @@ public class BeautifyBinaryString {
         int count =0;
         for(int i=0; i<s.length()-2; i++){
             if(s.substring(i, i+3).equals("010")) {
-                s = s.substring(0, i) + "  " + s.substring(i + 3);
+                s = s.substring(0, i) + "" + s.substring(i + 3);
                 count++;
             }
         }

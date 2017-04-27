@@ -14,6 +14,7 @@ public class AddBinary {
             x++;
         }
         System.out.println(decimal);
+        System.out.println(Integer.parseInt(num,2));
     }
 
     public static String DtoB(int n){
