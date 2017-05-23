@@ -25,12 +25,10 @@ public class Substring {
     public boolean repeatedSubstringPattern(String s){
         int l = s.length();
         for(int i = (l+1)/2; i < l; i++){
-            System.out.println(l + "  " + i + "  " + (l-i));
             if(l % (l-i) == 0){
                 String prefix = s.substring(0,i);
                 String rem = s.substring(i);
                 String suffix = s.substring(l-i);
-                System.out.println(prefix + "  " + rem + "  " + suffix);
                 if(s.startsWith(rem) && suffix.equals(prefix))
                     return true;
             }
@@ -39,7 +37,7 @@ public class Substring {
     }
 
     public static void main(String args[]){
-        String s = "abccab";
+        String s = "abcabc";
         System.out.println(new Substring().substr(s));
         System.out.println(new Substring().repeatedSubstringPattern(s));
     }

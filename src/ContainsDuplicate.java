@@ -34,7 +34,7 @@ public class ContainsDuplicate {
         ContainsDuplicate cd = new ContainsDuplicate();
         int[] a ={1,2,3,4,1};
         System.out.println(cd.containsDuplicate(a));
-        int[] b = {1,0,1, 1};
+        int[] b = {1,0,1,1};
         System.out.println(cd.ContainsDups(b, 0));
     }
 }

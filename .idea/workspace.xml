@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6590d620-b001-43eb-bcfb-8db63d27a3fb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Gemstones.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/KeyBoradRow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ReverseCharsInWords.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddBinary.java" afterPath="$PROJECT_DIR$/src/AddBinary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BeautifyBinaryString.java" afterPath="$PROJECT_DIR$/src/BeautifyBinaryString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConditionalReverse.java" afterPath="$PROJECT_DIR$/src/ConditionalReverse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContainsDuplicate.java" afterPath="$PROJECT_DIR$/src/ContainsDuplicate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CountAndSay.java" afterPath="$PROJECT_DIR$/src/CountAndSay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReverseString.java" afterPath="$PROJECT_DIR$/src/ReverseString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReverseWords.java" afterPath="$PROJECT_DIR$/src/ReverseWords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SearchInsert.java" afterPath="$PROJECT_DIR$/src/SearchInsert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Substring.java" afterPath="$PROJECT_DIR$/src/Substring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SuperReducedString.java" afterPath="$PROJECT_DIR$/src/SuperReducedString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwoSum.java" afterPath="$PROJECT_DIR$/src/TwoSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidateParenthesis.java" afterPath="$PROJECT_DIR$/src/ValidateParenthesis.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,28 +25,7 @@
     <favorites_list name="RandomAlgorithmProblems" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MirrorImageTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MirrorImageTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchInsert.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SearchInsert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,10 +106,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,30 +186,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RandomAlgorithmProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RandomAlgorithmProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructuresImplemenationForBeginners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -840,14 +794,16 @@
       <workItem from="1493252378867" duration="726000" />
       <workItem from="1493254248321" duration="3000" />
       <workItem from="1493254254058" duration="9000" />
+      <workItem from="1493618995124" duration="26000" />
+      <workItem from="1495516086056" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175482000" />
+    <option name="totallyTimeSpent" value="175551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -861,7 +817,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
