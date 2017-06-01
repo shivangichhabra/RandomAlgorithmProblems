@@ -10,10 +10,7 @@ public class MaxFrequencyChar {
         int elementCount = 0, count = 0;
         for(int i=0; i<s.length(); i++){
             if(map.containsKey(s.charAt(i))){
-                elementCount = map.get(s.charAt(i))+1;
-            }
-            else{
-                elementCount = 1;
+                elementCount = map.getOrDefault(s.charAt(i), 0)+1;
             }
             map.put(s.charAt(i), elementCount);
 

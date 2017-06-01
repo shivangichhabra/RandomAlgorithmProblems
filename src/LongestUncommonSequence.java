@@ -3,7 +3,7 @@ import java.util.Comparator;
 
 public class LongestUncommonSequence {
 	public int findLUSlengthOne(String[] strs) {
-		if(strs == null || strs.length ==0)
+		if(strs == null || strs.length == 0)
 			return -1;
 		
 		Arrays.sort(strs, new Comparator<String>(){
@@ -50,6 +50,6 @@ public class LongestUncommonSequence {
 		LongestUncommonSequence lcs = new LongestUncommonSequence();
 		String strs[] = {"aabbcc", "aabbcc","bc","bcc","aabbccc"};
 		String test[] = {"aaa","aaa","aa"};
-		System.out.println(lcs.findLUSlengthOne(test));
+		System.out.println(lcs.findLUSlengthOne(strs));
 	}
 }

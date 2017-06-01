@@ -49,6 +49,6 @@ public class CompareVersion {
 	}
 	public static void main(String args[]){
 		CompareVersion c = new CompareVersion();
-		System.out.println(c.compareVersionOne("1.2", "1"));
+		System.out.println(c.compareVersionOne("1.2", "2"));
 	}
 }
