@@ -15,7 +15,7 @@ public class CalculateClockAngle {
             minute = 0;
             hour += 1;
         }
-        
+
         double hourAngle = 0.5 * (60*hour + minute);  //angle for hour wand
         double minAngle = 6 * minute; //angle for minute wand
         double angle = Math.abs(hourAngle-minAngle);
