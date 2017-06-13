@@ -31,8 +31,7 @@ public class MinimumTimeDifference {
 		time = Math.min(time, diff);
 		return time;
 	}
-
-	private int getDiff(String a , String b){
+ 	private int getDiff(String a , String b){
 		int one = Integer.valueOf(a.substring(0,2))*60 + Integer.valueOf(a.substring(3,5));
 		int two = Integer.valueOf(b.substring(0,2))*60 + Integer.valueOf(b.substring(3,5));
 		return (two-one);

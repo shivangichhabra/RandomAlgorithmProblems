@@ -15,7 +15,7 @@ public class MajorityElement {
         for(int i=0; i<a.length; i++){
             elementCount++;
             if(i+1 >= a.length || a[i] != a[i+1]){
-                count = count < elementCount ? elementCount : count;
+                //count = count < elementCount ? elementCount : count;
                 map.put(elementCount, a[i]);
                 elementCount = 0;
             }

@@ -4,7 +4,6 @@
 public class CalculateClockAngle {
 
     public double getAngle(int hour, int minute){
-        System.out.println(hour + "  " + minute);
         if(hour < 0 || minute < 0)
             return -1;
 

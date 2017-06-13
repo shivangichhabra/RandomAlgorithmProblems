@@ -18,7 +18,7 @@ public class AddStrings {
             start = 1;
         }
 
-        for(int i= start; i<num.length(); i++){
+        for(int i = start; i<num.length(); i++){
             int x = num.charAt(i)- '0';
             sum = x + sum*10;
         }
