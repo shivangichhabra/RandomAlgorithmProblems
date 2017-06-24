@@ -22,25 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="isUgly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isUgly.java">
+      <file leaf-file-name="ReshapeMatrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReshapeMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="222">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinimumAbosoluteDifferenceBST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinimumAbosoluteDifferenceBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#753#762#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SortStack.java" />
         <option value="$PROJECT_DIR$/src/StackMin.java" />
         <option value="$PROJECT_DIR$/src/StackOfPlates.java" />
         <option value="$PROJECT_DIR$/src/LongestCommonPrefix.java" />
@@ -116,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/HappyNumber.java" />
         <option value="$PROJECT_DIR$/src/isUgly.java" />
         <option value="$PROJECT_DIR$/src/MinimumAbosoluteDifferenceBST.java" />
+        <option value="$PROJECT_DIR$/src/ReshapeMatrix.java" />
       </list>
     </option>
   </component>
@@ -223,22 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.isUgly">
-    <configuration default="false" name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ClimbingStairs" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="RandomAlgorithmProblems" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ReshapeMatrix">
     <configuration default="false" name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Sqrt" />
@@ -287,6 +259,21 @@
     <configuration default="false" name="isUgly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="isUgly" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RandomAlgorithmProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReshapeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ReshapeMatrix" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -688,19 +675,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ClimbingStairs" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Sqrt" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExcelSheetNumber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HappyNumber" />
-      <item index="4" class="java.lang.String" itemvalue="Application.isUgly" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Sqrt" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ExcelSheetNumber" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HappyNumber" />
+      <item index="3" class="java.lang.String" itemvalue="Application.isUgly" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReshapeMatrix" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.isUgly" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HappyNumber" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExcelSheetNumber" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Sqrt" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ClimbingStairs" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReshapeMatrix" />
+        <item index="1" class="java.lang.String" itemvalue="Application.isUgly" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HappyNumber" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ExcelSheetNumber" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Sqrt" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -784,12 +771,12 @@
       <workItem from="1497973302686" duration="1188000" />
       <workItem from="1498080544523" duration="6383000" />
       <workItem from="1498103939925" duration="4196000" />
-      <workItem from="1498231157239" duration="11055000" />
+      <workItem from="1498231157239" duration="14155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222856000" />
+    <option name="totallyTimeSpent" value="225956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -851,13 +838,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TwoStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseCharsInWords.java" />
     <entry file="file://$PROJECT_DIR$/src/MaxFrequencyChar.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -980,8 +960,8 @@
         <state relative-caret-position="408">
           <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1055,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,14 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/isUgly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HappyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1202,6 +1175,22 @@
             <element signature="imports" expanded="true" />
             <element signature="e#753#762#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isUgly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReshapeMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
