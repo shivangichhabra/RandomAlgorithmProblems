@@ -35,7 +35,7 @@ public class ShortestUnsortedContinousSubArray {
             if(max > nums[i])
                 end = i;
         }
-        
+
         return end-start+1;
     }
 
