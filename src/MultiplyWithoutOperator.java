@@ -45,7 +45,40 @@ public class MultiplyWithoutOperator {
         if(multiplier%2 == 0)
             return multiplyThree(num+num, multiplier>>1);
         else
-            return num+multiplyOne(num+num, multiplier>>1);
+            return num+multiplyThree(num+num, multiplier>>1);
+    }
+
+    public int multiply(int multiple, int multiplier) {
+        if (multiplier == 0)
+            return 0;
+
+        if (multiple == Integer.MIN_VALUE && multiplier == -1)
+            return Integer.MAX_VALUE;
+
+        if (multiple == Integer.MAX_VALUE && multiplier == -1)
+            return Integer.MIN_VALUE;
+
+        if (multiple == Integer.MAX_VALUE && multiplier > 0 ||  multiple > 0 && multiplier == Integer.MAX_VALUE)
+            return Integer.MAX_VALUE;
+
+        if (multiplier == 1)
+            return multiple;
+
+        if (multiplier == -1)
+            return -multiple;
+
+        if (multiplier == 2)
+            return (multiple << 1);
+
+        long x = multiple;
+        long y = multiplier;
+
+        int sign = (x < 0 ^ y < 0) ? -1 : 1;
+
+        x = Math.abs(x);
+        y = Math.abs(y);
+
+        return sign * (int) (Math.ceil(Math.exp(Math.log(x) + Math.log(y))));
     }
 
 
