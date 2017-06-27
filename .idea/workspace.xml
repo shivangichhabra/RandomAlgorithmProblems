@@ -36,14 +36,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiameterOfBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiameterOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="558">
+              <caret line="46" column="5" selection-start-line="35" selection-start-column="3" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CousinOfBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CousinOfBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BeautifyBinaryString.java" />
         <option value="$PROJECT_DIR$/src/ComparatorProblem.java" />
         <option value="$PROJECT_DIR$/src/ConditionalReverse.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicate.java" />
@@ -120,6 +132,7 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/PrintAllRootToLeafPath.java" />
         <option value="$PROJECT_DIR$/src/DiameterOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/CousinOfBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -130,10 +143,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -226,22 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
-    <configuration default="false" name="MultiplyWithoutOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MultiplyWithoutOperator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="RandomAlgorithmProblems" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.CousinOfBinaryTree">
     <configuration default="false" name="MergerKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MergerKSortedLists" />
@@ -290,6 +287,21 @@
     <configuration default="false" name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DiameterOfBinaryTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RandomAlgorithmProblems" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CousinOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CousinOfBinaryTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -718,19 +730,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MultiplyWithoutOperator" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MergerKSortedLists" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ConnectNodesAtSameLevel" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PrintAllRootToLeafPath" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DiameterOfBinaryTree" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MergerKSortedLists" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ConnectNodesAtSameLevel" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PrintAllRootToLeafPath" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DiameterOfBinaryTree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CousinOfBinaryTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DiameterOfBinaryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PrintAllRootToLeafPath" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ConnectNodesAtSameLevel" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MergerKSortedLists" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MultiplyWithoutOperator" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CousinOfBinaryTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DiameterOfBinaryTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PrintAllRootToLeafPath" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ConnectNodesAtSameLevel" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MergerKSortedLists" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -821,15 +833,15 @@
       <workItem from="1498231157239" duration="14155000" />
       <workItem from="1498322874239" duration="27318000" />
       <workItem from="1498496103264" duration="96000" />
-      <workItem from="1498510407456" duration="3363000" />
+      <workItem from="1498510407456" duration="5825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256733000" />
+    <option name="totallyTimeSpent" value="259195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -840,7 +852,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19978859" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20170757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -888,13 +900,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CalculateClockAngle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MergeThreeSortedArrays.java" />
     <entry file="file://$PROJECT_DIR$/bin/DeleteMiddleNode.class" />
     <entry file="file://$PROJECT_DIR$/src/DeleteMiddleNode.java">
@@ -1250,11 +1255,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiameterOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        <state relative-caret-position="558">
+          <caret line="46" column="5" selection-start-line="35" selection-start-column="3" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CousinOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
           </folding>
         </state>
       </provider>
