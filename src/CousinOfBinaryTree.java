@@ -58,6 +58,5 @@ public class CousinOfBinaryTree {
         Node b = tree.root.right.right;
 
         System.out.println(tree.isCousin(tree.root, a, b) ? "Yes" : "No");
-
     }
 }
