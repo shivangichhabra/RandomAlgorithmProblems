@@ -1,9 +1,9 @@
 
 public class UniquePaths {
-	/*
-	 * No obstacle
-	 */
-	public int uniquePathsOne(int m, int n) {
+    /*
+     * No obstacle
+     */
+    public int uniquePathsOne(int m, int n) {
         int[][] path = new int[m][n];
         
         for(int i=0; i<m; i++){
@@ -17,10 +17,10 @@ public class UniquePaths {
         return path[m-1][n-1];
     }
 	
-	/*
-	 * With Obstacle
-	 */
-	public int uniquePathsWithObstaclesTwo(int[][] obstacleGrid) {
+    /*
+     * With Obstacle
+     */
+    public int uniquePathsWithObstaclesTwo(int[][] obstacleGrid) {
         int n = obstacleGrid[0].length;
         int[] path = new int[n];
         
@@ -37,10 +37,10 @@ public class UniquePaths {
         return path[n-1];
     }
 	
-	/*
-	 * With Obstacle
-	 */
-	public int uniquePathsWithObstaclesThree(int[][] obstacleGrid) {
+    /*
+     * With Obstacle
+     */
+    public int uniquePathsWithObstaclesThree(int[][] obstacleGrid) {
         if(obstacleGrid.length == 0) return 0;
 
         int m = obstacleGrid.length;
