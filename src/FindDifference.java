@@ -20,8 +20,6 @@ public class FindDifference {
             result -= s.charAt(i);
         }
 
-        int x = 34;
-        System.out.println(Integer.parseInt(new StringBuilder(String.valueOf(x)).reverse().toString()));
         System.out.println(result  + "   " + (char)result);
     }
 }

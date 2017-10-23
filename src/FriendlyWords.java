@@ -18,7 +18,7 @@ public class FriendlyWords {
     /*
     Things to check
     1. All string with same characters printed together in one line
-    2. Avoid repeation
+    2. Avoid repetition
     3. Print in sorted order
      */
     public static String[] findFriendlyWords(String[] input){

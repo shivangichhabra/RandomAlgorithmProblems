@@ -10,7 +10,7 @@ public class ThreeSum {
 
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 2; i++) {
-            if(i==0 || nums[i] > nums[i-1]) { //avoids repeatition
+            if(i==0 || nums[i] > nums[i-1]) { //avoids repetition
                 int start = i + 1;
                 int end = nums.length - 1;
                 while (start < end) {

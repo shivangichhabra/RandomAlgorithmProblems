@@ -21,4 +21,24 @@ public class GenerateParenthesis {
             list.add(subset);
             return;
     }
+
+    public void genParanthesis(int n){
+        String subset = "";
+        while(n>0){
+            subset += "()";
+            n--;
+        }
+
+        System.out.println(subset);
+    }
+
+    public static void main(String args[]){
+        GenerateParenthesis g = new GenerateParenthesis();
+        List<String> list = g.generateParenthesis(3);
+        for(String s: list){
+            System.out.println(s);
+        }
+
+        g.genParanthesis(10);
+    }
 }

@@ -28,4 +28,11 @@ public class ExcelSheetNumber {
         System.out.println(es.convertToTitle(26));
     }
 
+
+    /*
+    int val = 0;
+    for(int i: s.length){
+        val = val*26 + (s.charAt(i)-'A')+1
+    }
+     */
 }

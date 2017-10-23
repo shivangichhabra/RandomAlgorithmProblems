@@ -5,21 +5,6 @@ import java.util.Arrays;
  */
 public class LongestCommonPrefix {
 
-    public String LCP(String[] s){
-        if(s == null || s.length == 0)
-            return "";
-
-        String one = s[0];
-        int i=1;
-        while(i<s.length){
-            while(s[i].indexOf(one) != 0){
-                one = one.substring(0, one.length()-1);
-            }
-            i++;
-        }
-        return one;
-    }
-
     public String sortedStringPrefix(String[] s){
         Arrays.sort(s);
 
@@ -38,6 +23,7 @@ public class LongestCommonPrefix {
 
     public static void main(String args[]){
         LongestCommonPrefix lcp = new LongestCommonPrefix();
-
+        String[] s = {"ead", "eat", "eaten"};
+        System.out.println(lcp.sortedStringPrefix(s));
     }
 }
