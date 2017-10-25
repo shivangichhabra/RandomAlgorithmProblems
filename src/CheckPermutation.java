@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Shivangi on 4/5/2017.
  */
-public class CheckPermutation {
+public class    CheckPermutation {
 
     /*
     O(nlog n)

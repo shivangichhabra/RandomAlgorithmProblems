@@ -1,5 +1,5 @@
 /**
- * Created by keepi on 6/26/2017.
+ * Created by Shivangi on 6/26/2017.
  */
 public class ConnectNodesAtSameLevel {
     static class Node{
@@ -41,7 +41,7 @@ public class ConnectNodesAtSameLevel {
         tree.root = new Node(10);
         tree.root.left = new Node(8);
         tree.root.right = new Node(2);
-        tree.root.left.left = new Node( 3);
+        tree.root.left.left = new Node(3);
 
         tree.connect(tree.root);
     }
