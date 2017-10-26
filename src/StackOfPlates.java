@@ -3,7 +3,7 @@ import java.util.EmptyStackException;
 import java.util.Stack;
 
 /**
- * Created by FS047207 on 4/12/2017.
+ * Created by Shivangi on 4/12/2017.
  */
 public class StackOfPlates {
     ArrayList<Stack> listOfStacks = new ArrayList<>();

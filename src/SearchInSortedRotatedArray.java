@@ -1,5 +1,5 @@
 /**
- * Created by keepi on 6/27/2017.
+ * Created by Shivangi on 6/27/2017.
  */
 public class SearchInSortedRotatedArray {
     public int search(int[] nums, int target) {

@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * Created by keepi on 6/25/2017.
+ * Created by Shivangi on 6/25/2017.
  */
 public class MergerKSortedLists {
     static class ListNode{

@@ -1,5 +1,5 @@
 /**
- * Created by keepi on 6/24/2017.
+ * Created by Shivangi on 6/24/2017.
  */
 public class Flowerbed {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {

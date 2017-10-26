@@ -1,5 +1,5 @@
 /**
- * Created by keepi on 6/19/2017.
+ * Created by Shivangi on 6/19/2017.
  */
 public class PrimeNumber {
 

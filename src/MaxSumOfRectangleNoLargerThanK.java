@@ -1,7 +1,7 @@
 import java.util.TreeSet;
 
 /**
- * Created by keepi on 6/27/2017.
+ * Created by Shivangi on 6/27/2017.
  */
 public class MaxSumOfRectangleNoLargerThanK {
     public int maxSumSubmatrix(int[][] matrix, int k) {

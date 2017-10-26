@@ -1,5 +1,5 @@
 /**
- * Created by FS047207 on 6/27/2017.
+ * Created by Shivangi on 6/27/2017.
  */
 public class GetPathSum {
     static class Node{
