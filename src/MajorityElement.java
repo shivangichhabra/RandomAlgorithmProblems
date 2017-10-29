@@ -3,28 +3,26 @@ import java.util.HashMap;
 
 /**
  * Created by Shivangi on 4/16/2017.
+ *
+ * Given an array of size n, find the majority element. The majority element is the element that appears more than
+ * (n/2) times. (assume that the array is non-empty and the majority element always exist in the array.)
  */
 public class MajorityElement {
 
-    public static void count(int[] a){
-        Arrays.sort(a);
-
+    public int getElement(int[] a){
         HashMap<Integer, Integer> map = new HashMap<>();
-        int count = 0;
-        int elementCount = 0;
         for(int i=0; i<a.length; i++){
-            elementCount++;
-            if(i+1 >= a.length || a[i] != a[i+1]){
-                //count = count < elementCount ? elementCount : count;
-                map.put(elementCount, a[i]);
-                elementCount = 0;
+            map.put(a[i], map.getOrDefault(a[i], 0)+1);
+            if(map.get(a[i]) > a.length/2){
+                return a[i];
             }
         }
-        System.out.println(map.get(count));
+        return -1;
     }
 
     public static void main(String args[]){
-        int []a = {1,2,3,1,2,4,5,2};
-        count(a);
+        MajorityElement me = new MajorityElement();
+        int []a = {1,2,3,5,2,3,2,2,2,2,2};
+        System.out.println(me.getElement(a));
     }
 }

@@ -3,7 +3,7 @@ import java.util.Stack;
 /**
  * Created by Shivangi on 4/8/2017.
  */
-public class ListPalindrome {
+public class  ListPalindrome {
 
 
     public LinkedListNode reverseList(LinkedListNode node){

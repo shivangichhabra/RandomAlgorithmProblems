@@ -12,15 +12,17 @@ public class KthSmallestElementInArray {
         return nums[k-1]; //if largest was needed nums[nums.length-k]
     }
 
-    public int getKthSmaillestWithHeap(int[] nums, int k){
+    public int getKthSmallestWithHeap(int[] nums, int k){
         //max heap
         PriorityQueue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
 
         for(int i:nums){
             heap.offer(i);
 
-            if(heap.size() > k)
+            if(heap.size() > k) {
                 heap.poll();
+               // System.out.println(heap.peek());
+            }
         }
         return heap.peek();
     }
@@ -35,7 +37,7 @@ public class KthSmallestElementInArray {
         KthSmallestElementInArray k = new KthSmallestElementInArray();
         int[] nums = {3,2,6,8,1,0,19,35,67,10};
 
-        System.out.println(k.getKthSmallestWithSort(nums, 6));
-        System.out.println(k.getKthSmaillestWithHeap(nums, 6));
+        System.out.println(k.getKthSmallestWithSort(nums, 4));
+        System.out.println(k.getKthSmallestWithHeap(nums, 4));
     }
 }
