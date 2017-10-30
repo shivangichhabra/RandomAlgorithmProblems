@@ -3,7 +3,7 @@ import java.util.HashMap;
 /**
  * Created by Shivangi on 4/20/2017.
  */
-public class MaxFrequencyChar {
+public class MaxFrequencyCharCount {
 
     public void getMax(String s){
         HashMap<Character, Integer> map = new HashMap<>();
@@ -21,7 +21,7 @@ public class MaxFrequencyChar {
     }
 
     public static void main(String args[]){
-        MaxFrequencyChar x = new MaxFrequencyChar();
+        MaxFrequencyCharCount x = new MaxFrequencyCharCount();
         x.getMax("aabbbbaaacccdddddd  dasd");
     }
 }

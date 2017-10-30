@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Sid is obsessed with reading short stories. Being a CS student, he is doing some interesting frequency analysis with
- * the books. He choses strings S1 and S2 in such a way that |len(S1) - len(S2)| <= 1.
+ * the books. He chooses strings S1 and S2 in such a way that |len(S1) - len(S2)| <= 1.
  *
  * Sample Input:
  *  xaxbbbxx
