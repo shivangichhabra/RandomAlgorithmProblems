@@ -11,7 +11,7 @@ public class RotateMatrix {
         }
     }
 
-    public void tranpose(int[][] matrix){
+    public void transpose(int[][] matrix){
         for(int i=0; i<matrix.length; i++) {
             for (int j = i; j < matrix[0].length; j++) {
                 int temp = matrix[i][j];
@@ -25,7 +25,7 @@ public class RotateMatrix {
     <-
      */
     public void rotateLeft(int[][] matrix){
-        tranpose(matrix);
+        transpose(matrix);
         swapRows(matrix);
         displayMatrix(matrix);
     }
@@ -35,7 +35,7 @@ public class RotateMatrix {
      */
     public void rotateRight(int[][] matrix){
         swapRows(matrix);
-        tranpose(matrix);
+        transpose(matrix);
         displayMatrix(matrix);
     }
 

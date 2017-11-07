@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Note: If the final string is empty, print Empty String
  *
  * Sample Input:
- *  aaabccddd
+ *  aaabccdddaa
  *  baab
  *
  * Sample Output:
@@ -18,8 +18,19 @@ import java.util.Scanner;
  *  Empty String
  */
 public class SuperReducedString {
+
+    public String testReduction(String s){
+        StringBuilder result = new StringBuilder("");
+        for(int i=0; i<s.length(); i++){
+            if(i+1 >= s.length() || s.charAt(i) !=  s.charAt(i+1)){
+                result.append(s.charAt(i));
+            }
+        }
+        return result.toString();
+    }
+
     public static void main(String args[]){
-        String s = "aaaabbbbccdddd";
+        String s = "aaaabbbbccddddaa";
         for(int i=1; i<s.length(); i++){
             if(s.charAt(i-1) == s.charAt(i)){
                 s = s.substring(0,i-1) + s.substring(i);
@@ -27,5 +38,6 @@ public class SuperReducedString {
             }
         }
         System.out.println((s.length() == 0) ? "Empty String" : s);
+        System.out.println(new SuperReducedString().testReduction(s));
     }
 }

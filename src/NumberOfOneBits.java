@@ -8,13 +8,13 @@ public class NumberOfOneBits {
         for(int i=0; i<32; i++){
             if((n&1) == 1)
                 count++;
-            n >>= 1;
+            n = n>>1;
         }
         System.out.println(count);
     }
 
     public static void main(String args[]){
         NumberOfOneBits nb = new NumberOfOneBits();
-        nb.countBits(2);
+        nb.countBits(60);
     }
 }
