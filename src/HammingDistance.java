@@ -41,6 +41,9 @@ public class HammingDistance {
     }
 
     public void getHD(int a, int b){
+        int c = a^b;
+        String test = Integer.toBinaryString(c);
+        System.out.println("here:" + (test.length()-1));
         System.out.println(Integer.bitCount(a ^ b));
     }
 
@@ -53,8 +56,8 @@ public class HammingDistance {
     public static void main(String args[]){
         HammingDistance hd = new HammingDistance();
         DtoB(3);
-        hd.distance(1,4);
-        hd.getHD(1,4);
+        hd.distance(8,10);
+        hd.getHD(8,10);
         hd.getHDistance(1,4);
     }
 }
