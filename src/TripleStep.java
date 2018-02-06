@@ -41,7 +41,7 @@ public class TripleStep {
 
     public static void main(String args[]){
         TripleStep t = new TripleStep();
-        System.out.println(t.countWays(25));
-        System.out.println(t.countWaysON(25));
+        System.out.println(t.countWays(3));
+        System.out.println(t.countWaysON(3));
     }
 }

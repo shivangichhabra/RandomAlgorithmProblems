@@ -10,17 +10,17 @@ public class CheckBTforBST {
 
     Node root;
 
-    public boolean checkBST(Node n){
-        return checkBST(n, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    public boolean checkBST(Node root){
+        return checkBST(root, null, null);
     }
 
-    public boolean checkBST(Node n, int min, int max){
-        if(n == null)
+    public boolean checkBST(Node node, Integer min, Integer max){
+        if(node == null)
             return true;
 
-        if(n.data <= min || n.data >= max)
+        if((min != null && node.data <= min) || (max != null && node.data >= max))
             return  false;
 
-        return checkBST(n.left, min, n.data) && checkBST(n.right, n.data,   max);
+        return checkBST(node.left, min, node.data) && checkBST(node.right, node.data, max);
     }
 }
