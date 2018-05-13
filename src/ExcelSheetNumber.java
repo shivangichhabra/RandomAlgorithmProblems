@@ -24,7 +24,7 @@ public class ExcelSheetNumber {
 
     public static void main(String args[]){
         ExcelSheetNumber es = new ExcelSheetNumber();
-        System.out.println(es.titleToNumber("AABZWER"));
+        System.out.println(es.titleToNumber("AAB"));
         System.out.println(es.convertToTitle(26));
     }
 
