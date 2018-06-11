@@ -26,6 +26,16 @@ public class MaximumSubArray {
         return res;
     }
 
+    public int maxWithDP2(int[] nums){
+        int sum = nums[0];
+        int maxSoFar = nums[0];
+        for(int i=0; i<nums.length; i++){
+            sum = Math.max(sum+nums[i], nums[i]);
+            maxSoFar = Math.max(maxSoFar, sum);
+        }
+        return maxSoFar;
+    }
+
     public static void main(String args[]){
         MaximumSubArray m = new MaximumSubArray();
         int[] a = {-2,1,-3,4,-1,2,1,-5,4};
