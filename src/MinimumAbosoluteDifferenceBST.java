@@ -29,7 +29,7 @@ public class MinimumAbosoluteDifferenceBST {
         if(prev != null)
             min = Math.min(min, root.val - prev.val);
 
-        root = prev;
+        prev = root;
 
         getMinimumDifferenceBST(root.right);
 

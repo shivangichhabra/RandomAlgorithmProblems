@@ -5,7 +5,7 @@ public class LongestNonCommonLength {
 
     public int length(String a, String b){
         if(a.equals(b))
-            return -1;
+            return 0;
         else
             return a.length() > b.length() ? a.length() : b.length();
     }

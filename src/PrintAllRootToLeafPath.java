@@ -1,8 +1,5 @@
-import java.util.LinkedList;
+import java.util.*;
 
-/**
- * Created by Shivangi on 6/26/2017.
- */
 public class PrintAllRootToLeafPath {
     static class Node{
         int data;
@@ -15,32 +12,35 @@ public class PrintAllRootToLeafPath {
     }
 
     Node root;
-    public void printPath(Node n){
-        int[] path = new int[1000];
-        LinkedList<Integer> list = new LinkedList<Integer>();
-        printRecPath(n, path, 0);
+
+    public ArrayList<String> printPath(Node root){
+        String path = "";
+
+        ArrayList<String> result = new ArrayList<String>();
+        printRecPath(root, path, result);
+
+        return result;
     }
 
-    public void printRecPath(Node n, int[] path, int len){
-        if(n == null)
+    public void printRecPath(Node node, String path, List<String> list){
+        if(node == null)
             return;
 
-        path[len] =  n.data;
-        len++;
+        path += node.data + " ";
 
-        if(n.left == null && n.right == null)
-            print(path, len);
-        else{
-            printRecPath(n.left, path, len);
-            printRecPath(n.right, path, len);
+        if(node.left == null && node.right == null){
+            list.add(path);
+        }
+
+        if(node.left != null){
+            printRecPath(node.left, path, list);
+        }
+
+        if(node.right != null){
+            printRecPath(node.right, path, list);
         }
     }
 
-    public void print(int[] path, int len){
-        for(int i=0; i<len; i++)
-            System.out.print(path[i] + "  ");
-        System.out.println("");
-    }
     public static void main(String args[]){
         PrintAllRootToLeafPath tree = new PrintAllRootToLeafPath();
         tree.root = new Node(10);
@@ -51,7 +51,9 @@ public class PrintAllRootToLeafPath {
         tree.root.right.left = new Node(1);
         tree.root.right.left.right = new Node(0);
 
-        tree.printPath(tree.root);
-
+        List<String> output = tree.printPath(tree.root);
+        for(int i=0; i<output.size(); i++){
+            System.out.println(output.get(i));
+        }
     }
 }

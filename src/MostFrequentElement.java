@@ -5,12 +5,12 @@ import java.util.HashMap;
  */
 public class MostFrequentElement {
 
-    public int getFrequenctElement(int[] a){
+    public int getFrequentElement(int[] a){
         HashMap<Integer, Integer> map = new HashMap<>();
         int maxCount = 0;
         int maxElement = -1;
-        for(int i : a){
-            if(map.containsKey(i)){
+        for(int i : a) {
+            if(map.containsKey(i)) {
                 map.put(i, map.get(i)+1);
                 if(map.get(i) > maxCount) {
                     maxCount = map.get(i);
@@ -22,7 +22,7 @@ public class MostFrequentElement {
                     maxElement = i;
                 }
             }
-            else{
+            else {
                 map.put(i, 1);
             }
         }
@@ -32,6 +32,6 @@ public class MostFrequentElement {
     public static void main(String args[]){
         MostFrequentElement mf = new MostFrequentElement();
         int []a = {1,2,3,5,2,3,2,3};
-        System.out.println(mf.getFrequenctElement(a));
+        System.out.println(mf.getFrequentElement(a));
     }
 }
