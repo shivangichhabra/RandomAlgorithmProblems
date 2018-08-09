@@ -7,17 +7,14 @@ public class LinkedListNode {
     public LinkedListNode last;
     int data;
 
-    public LinkedListNode(){
-
-    }
-
     public LinkedListNode(int d){
         this.data = d;
     }
 
     public LinkedListNode(int d, LinkedListNode n, LinkedListNode p){
         this.data = d;
-
+        this.prev = p;
+        this.next = n;
     }
 
     public void setNext(LinkedListNode n){
@@ -36,7 +33,7 @@ public class LinkedListNode {
 
     public String display(){
         if(next != null)
-            return data +"->"+next.display();
+            return data +" "+next.display();
         return data+"";
     }
 

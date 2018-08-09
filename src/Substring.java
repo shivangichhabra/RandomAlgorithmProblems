@@ -29,6 +29,7 @@ public class Substring {
                 String prefix = s.substring(0,i);
                 String rem = s.substring(i);
                 String suffix = s.substring(l-i);
+                System.out.println(prefix + "  " + rem + "  " + suffix);
                 if(s.startsWith(rem) && suffix.equals(prefix))
                     return true;
             }

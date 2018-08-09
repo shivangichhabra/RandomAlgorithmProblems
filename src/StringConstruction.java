@@ -2,7 +2,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 /**
- * Amanda has a string, s, of m lowercase letters that she wants to copy into a new string, p. She can perform the following operations any number of times to construct string :
+ * Amanda has a string, s, of m lowercase letters that she wants to copy into a new string, p. She can perform the
+ * following operations any number of times to construct string :
  *
  *  a.) Append a character to the end of string p at a cost of 1 dollar.
  *  b.) Choose any substring of p and append it to the end of p at no charge.

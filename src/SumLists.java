@@ -7,7 +7,7 @@ public class SumLists {
         if(first == null && second == null && carry == 0)
             return null;
 
-        LinkedListNode result = new LinkedListNode();
+        LinkedListNode result = new LinkedListNode(0);
         int value = carry;
         if(first != null)
             value += first.data;
@@ -34,13 +34,13 @@ public class SumLists {
     }
 
     public static void main(String args[]){
-        LinkedListNode lA1 = new LinkedListNode(7, null, null);
-        LinkedListNode lA2 = new LinkedListNode(1, null, lA1);
-        LinkedListNode lA3 = new LinkedListNode(6, null, lA2);
+        LinkedListNode lA1 = new LinkedListNode(7);
+        lA1.next =  new LinkedListNode(1);
+        lA1.next.next = new LinkedListNode(6);
 
-        LinkedListNode lB1 = new LinkedListNode(5, null, null);
-        LinkedListNode lB2 = new LinkedListNode(9, null, lB1);
-        LinkedListNode lB3 = new LinkedListNode(2, null, lB2);
+        LinkedListNode lB1 = new LinkedListNode(5);
+        lB1.next = new LinkedListNode(9);
+        lB1.next.next = new LinkedListNode(9);
 
         LinkedListNode list3 = addLists(lA1, lB1, 0);
 
